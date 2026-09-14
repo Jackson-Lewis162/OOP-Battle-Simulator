@@ -1,7 +1,7 @@
 from goblin import Goblin
 
 
-ARENA_NAME = "The Iron Lung"
+ARENA_NAME = "The Gold Boi"
 
 
 def main():
