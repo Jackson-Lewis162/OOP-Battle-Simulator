@@ -6,7 +6,7 @@ class Hero:
         self.health = 120
         self.attack_power = 20
     def attack(self):
-        return random.radient(1, self.attack_power)
+        return random.randint(1, self.attack_power)
 
     def take_damage(self, damage):
         self.health = self.health - damage
