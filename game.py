@@ -1,3 +1,4 @@
+from boss import Boss
 from goblin import Goblin
 from hero import Hero
 
@@ -32,8 +33,12 @@ def main():
     print(f"{ribble.name} enters the arena with {ribble.health} health.")
     bob = Hero("bobby")
     print(f"{bob.name} enters the arena!")
-    print("But no hero has answered the call... yet.")
+    print("")
+    battle(bob, ribble)
 
+    boss = Boss("Fred")
+    print("Boss has entered the battle")
+    battle(bob, boss)
 
 if __name__ == "__main__":
     main()
